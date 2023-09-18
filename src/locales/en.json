@@ -1,0 +1,57 @@
+{
+  "auth": {
+    "validation": {
+      "password": {
+        "required": "Password is required.",
+        "min": "Minimum length should be 8.",
+        "matches": "Must Contain 8 Characters, One Uppercase, One Lowercase, One Number and One Special Case Character"
+      },
+      "email": {
+        "required": "Email is required.",
+        "valid": "Email is not a valid email.",
+        "emailInUse": "Email is already register with us."
+      },
+      "token": {
+        "required": "Token is required.",
+        "valid": "Token is not a valid email."
+      }
+    },
+    "registration": {
+      "success": "An email sent to you register mail, please check to complete the registration.",
+      "exist": "Email is already register with us."
+    },
+    "verification": {
+      "failed": "Email verification is failed!",
+      "success": "Email verified successfully!",
+      "sendMail": "Email Varification mail to your registered mail.",
+      "sendMailFailed": "Failed to send mail. please try again!"
+    },
+    "forgetPassword": {
+      "sendMailFailed": "Failed to send reset mail on your register mail",
+      "sendMail": "Reset email send to your register mail"
+    },
+    "resetPassword": {
+      "failed": "Someting wents wrong! Please try again!",
+      "success": "Password Change Successfully!"
+    },
+    "changePassword": {
+      "failed": "Someting wents wrong! Please try again!",
+      "incorrectOldPass": "Old password is incorrect!",
+      "success": "Password Change Successfully!"
+    },
+    "login": {
+      "failed": "Incorrect email or password!",
+      "success": "Login successfully!",
+      "notVerified": "Email is not verified, A verification email will send to yout register mail."
+    }
+  },
+  "error": {
+    "message": "Something wents wrong! Please try again!"
+  },
+  "mail": {
+    "subject": {
+      "registration": "Thank you for registration with Gocha",
+      "forgetPassword": "Reset your password"
+    }
+  }
+}
